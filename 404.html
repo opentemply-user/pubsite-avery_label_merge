@@ -1,73 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Design flawless mailing labels in Google Docs & Sheets in minutes. OpenTemply Label Maker generates labels compatible with Avery US, Canada, Zweckform, Australia, France, UK Templates.">
-    <meta name="keywords" content="label maker, google docs, google sheets, mail merge, avery labels, address labels, OpenTemply Label Maker, print labels, google workspace extension, free label maker, avery templates, 5160 template, google docs labels, custom labels, shipping labels, return address labels, business labels">
-    <meta name="author" content="OpenTemply Label Maker">
-    <meta name="subject" content="Label Maker for Google Workspace">
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <meta name="language" content="en">
-    <meta name="revisit-after" content="7 days">
-    <meta name="theme-color" content="#18181b">
-    
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://labelmaker.opentemply.com/">
-    
-    <!-- Open Graph -->
-    <meta property="og:title" content="OpenTemply Label Maker - add-on for Google Docs & Sheets — Create, Customize & Print Avery Labels Instantly">
-    <meta property="og:description" content="Generate labels compatible with Avery US, Canada, Zweckform, Australia, France, UK Templates. Smooth mail merge from Google Sheets.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://labelmaker.opentemply.com/">
-    <meta property="og:image" content="https://labelmaker.opentemply.com/images/og-image.png">
-    <meta property="og:image:alt" content="OpenTemply Label Maker App Interface">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:site_name" content="OpenTemply Label Maker">
-    <meta property="og:locale" content="en_US">
-    
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@labelmaker">
-    <meta name="twitter:creator" content="@labelmaker">
-    <meta name="twitter:title" content="OpenTemply Label Maker - add-on for Google Docs & Sheets — Create, Customize & Print Avery Labels Instantly">
-    <meta name="twitter:description" content="The premier Google Docs & Sheets extension for generating labels compatible with Avery US, Canada, Zweckform, Australia, France, UK Templates. Build from over 4,000 templates and Sheets data.">
-    <meta name="twitter:image" content="https://labelmaker.opentemply.com/images/og-image.png">
-    
-    <!-- Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "OpenTemply Label Maker",
-      "operatingSystem": "Any",
-      "applicationCategory": "BusinessApplication",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      },
-      "description": "The premier Google Docs & Sheets extension for generating labels compatible with Avery US, Canada, Zweckform, Australia, France, UK Templates. Build from over 4,000 templates and Sheets data.",
-      "url": "https://labelmaker.opentemply.com/",
-      "author": {
-        "@type": "Organization",
-        "name": "OpenTemply Label Maker"
-      }
-    }
-    </script>
-    
-    <title>OpenTemply Label Maker - add-on for Google Docs & Sheets — Create, Customize & Print Avery Labels Instantly</title>
-    <link rel="icon" type="image/svg+xml" href="https://cdn.jsdelivr.net/gh/opentemply-user/OpenTemply/projects/astral-layout/assets/logo.svg">
+    <meta name="description" content="OpenTemply Label Maker - The ultimate tool to create, customize, and print Avery compatible labels instantly from your spreadsheets.">
+    <meta name="keywords" content="label maker, mail merge, print labels, avery labels, custom labels, shipping labels">
+    <title>OpenTemply Label Maker — Professional Label Generation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="/assets/index-98ETMp-Y.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-z5M-9Tab.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <div id="root"></div>
+  <body class="bg-slate-50 text-slate-900 font-['Open_Sans'] antialiased selection:bg-blue-200 selection:text-blue-900 flex flex-col min-h-screen">
+    
+    <header class="fixed top-0 w-full bg-white/80 backdrop-blur-md border-b border-slate-200 z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+        <div class="flex items-center gap-2 font-bold text-xl tracking-tight text-slate-800">
+          <span class="material-symbols-outlined text-blue-600">sell</span>
+          OpenTemply
+        </div>
+        <nav class="hidden md:flex gap-8">
+          <a href="#features" class="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Features</a>
+          <a href="#how-it-works" class="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">How it Works</a>
+        </nav>
+        <a href="/workspace/" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-lg font-medium text-sm transition-all shadow-sm shadow-blue-200">
+          Open Label Maker
+        </a>
+      </div>
+    </header>
+
+    <main class="flex-grow pt-16">
+      <!-- Hero Section -->
+      <section class="relative pt-20 pb-24 lg:pt-32 lg:pb-40 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-b from-blue-50 to-slate-50 -z-10"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-tight mb-6">
+            Convert Spreadsheets to <br class="hidden md:block"/>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Labels Instantly</span>
+          </h1>
+          <p class="max-w-2xl mx-auto text-lg md:text-xl text-slate-600 mb-10 leading-relaxed">
+            Generate pixel-perfect, Avery-compatible labels from your data in seconds. Stop wrestling with formatting and start printing with confidence.
+          </p>
+          <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+            <a href="/workspace/" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3.5 rounded-xl font-bold text-base transition-all shadow-lg shadow-blue-200/50 flex items-center gap-2">
+              Launch Label Maker
+              <span class="material-symbols-outlined text-xl">arrow_forward</span>
+            </a>
+            <a href="#features" class="bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 px-8 py-3.5 rounded-xl font-bold text-base transition-all">
+              Explore Features
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section id="features" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-slate-900 mb-4">Everything you need for perfect labels</h2>
+            <p class="text-slate-600 max-w-2xl mx-auto">A powerful suite of tools designed to make label generation completely frictionless.</p>
+          </div>
+          
+          <div class="grid md:grid-cols-3 gap-8">
+            <!-- Feature 1 -->
+            <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:border-blue-100 transition-colors">
+              <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center text-blue-600 mb-6">
+                <span class="material-symbols-outlined">table_view</span>
+              </div>
+              <h3 class="text-xl font-bold text-slate-800 mb-3">Seamless Data Merge</h3>
+              <p class="text-slate-600 leading-relaxed">Connect your spreadsheets directly and map columns to your labels with an intuitive drag-and-drop interface.</p>
+            </div>
+            
+            <!-- Feature 2 -->
+            <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:border-blue-100 transition-colors">
+              <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center text-blue-600 mb-6">
+                <span class="material-symbols-outlined">dashboard_customize</span>
+              </div>
+              <h3 class="text-xl font-bold text-slate-800 mb-3">8,000+ Templates</h3>
+              <p class="text-slate-600 leading-relaxed">Built-in support for every major Avery template size and format across the US, UK, Europe, and Australia.</p>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:border-blue-100 transition-colors">
+              <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center text-blue-600 mb-6">
+                <span class="material-symbols-outlined">print</span>
+              </div>
+              <h3 class="text-xl font-bold text-slate-800 mb-3">Print-Ready Export</h3>
+              <p class="text-slate-600 leading-relaxed">Generate high-resolution PDFs perfectly aligned for your printer. No more wasted sheets due to misalignment.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="py-24 bg-slate-900 relative overflow-hidden">
+        <div class="absolute inset-0 bg-blue-600/10"></div>
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+          <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Ready to streamline your workflow?</h2>
+          <p class="text-slate-300 text-lg mb-10">Jump into the tool and start creating your custom labels today.</p>
+          <a href="/workspace/" class="inline-flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-xl font-bold text-lg transition-colors">
+            Open Label Maker
+            <span class="material-symbols-outlined">rocket_launch</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-slate-950 py-12 border-t border-slate-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+        <div class="flex items-center gap-2 font-bold text-xl tracking-tight text-white">
+          <span class="material-symbols-outlined text-blue-500">sell</span>
+          OpenTemply
+        </div>
+        <p class="text-slate-500 text-sm">© 2026 OpenTemply. All rights reserved.</p>
+        <div class="flex gap-4">
+          <a href="/workspace/privacy" class="text-sm text-slate-400 hover:text-white transition-colors">Privacy</a>
+          <a href="/workspace/terms" class="text-sm text-slate-400 hover:text-white transition-colors">Terms</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
-
