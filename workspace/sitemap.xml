@@ -21,6 +21,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://labelmaker.opentemply.com/workspace/google-api-disclosure</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://labelmaker.opentemply.com/workspace/contact</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
