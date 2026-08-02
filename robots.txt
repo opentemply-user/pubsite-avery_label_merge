@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://labelmaker.opentemply.com/sitemap.xml
+Sitemap: https://labelmaker.opentemply.com/workspace/sitemap.xml
