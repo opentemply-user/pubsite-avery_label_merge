@@ -6,6 +6,21 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://labelmaker.opentemply.com/create/labels</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/create/barcodelabels</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/create/bulkbarcodecreator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://labelmaker.opentemply.com/editor</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
