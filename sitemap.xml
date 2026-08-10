@@ -116,72 +116,292 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://labelmaker.opentemply.com/labels/category/dymo</loc>
+    <loc>https://labelmaker.opentemply.com/labels/category/thermal</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://labelmaker.opentemply.com/labels/category/brother</loc>
+    <loc>https://labelmaker.opentemply.com/labels/category/dymo-die-cut</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://labelmaker.opentemply.com/labels/category/zebra</loc>
+    <loc>https://labelmaker.opentemply.com/labels/category/brother-dk-die-cut</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://labelmaker.opentemply.com/labels/category/rollo</loc>
+    <loc>https://labelmaker.opentemply.com/labels/category/portable</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://labelmaker.opentemply.com/labels/category/munbyn</loc>
+    <loc>https://labelmaker.opentemply.com/labels/category/dymo-tape</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://labelmaker.opentemply.com/labels/category/niimbot</loc>
+    <loc>https://labelmaker.opentemply.com/labels/category/brother-tze-tape</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://labelmaker.opentemply.com/labels/category/phomemo</loc>
+    <loc>https://labelmaker.opentemply.com/labels/category/seiko-smart-label</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://labelmaker.opentemply.com/labels/category/bixolon</loc>
+    <loc>https://labelmaker.opentemply.com/labels/category/paper-sizes</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://labelmaker.opentemply.com/labels/category/honeywell</loc>
+    <loc>https://labelmaker.opentemply.com/labels/use-case/shipping</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://labelmaker.opentemply.com/labels/category/sato</loc>
+    <loc>https://labelmaker.opentemply.com/labels/use-case/product-labels</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://labelmaker.opentemply.com/labels/category/tsc</loc>
+    <loc>https://labelmaker.opentemply.com/labels/use-case/barcode</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://labelmaker.opentemply.com/labels/category/citizen</loc>
+    <loc>https://labelmaker.opentemply.com/labels/use-case/multipurpose</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://labelmaker.opentemply.com/labels/category/seiko</loc>
+    <loc>https://labelmaker.opentemply.com/labels/use-case/address</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://labelmaker.opentemply.com/labels/category/paper</loc>
+    <loc>https://labelmaker.opentemply.com/labels/use-case/media-labels</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/use-case/name-badges</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/use-case/file-folder</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/use-case/shelf-labels</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/use-case/logistics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/89x28mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/89x36mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/101x54mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/101x59mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/152x102mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/13x13mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/25x13mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/51x19mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/25x25mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/54x25mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/32x57mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/57x32mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/64x19mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/87x14mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/51x14mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/50x12mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/70x54mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/78x46mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/149x19mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/89x41mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/71x10mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/89x57mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/101x57mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/89x64mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/89x51mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/190x59mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/100x6mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/100x9mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/100x12mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/100x19mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/100x24mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/90x29mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/100x62mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/87x17mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/54x17mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/90x38mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/62x29mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/24x24mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/48x39mm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://labelmaker.opentemply.com/labels/size/23x23mm</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
